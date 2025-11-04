@@ -6,6 +6,24 @@ using UnityEngine.SceneManagement; // Bắt buộc phải có dòng này để q
 public class MenuController : MonoBehaviour
 {
     // Function để gọi khi bấm nút AirPlane
+    public void StartLoadLevelScene()
+    {
+        // Tải scene có tên là "SampleScene"
+        SceneManager.LoadScene("LevelScene");
+    }
+    public void Setting()
+    {
+        // Tải scene có tên là "SampleScene"
+        SceneManager.LoadScene("Setting");
+    }
+    
+    public void AboutUs()
+    {
+        // Tải scene có tên là "SampleScene"
+        SceneManager.LoadScene("AboutUs");
+    }
+
+    // Function để gọi khi bấm nút AirPlane
     public void LoadAirPlaneScene()
     {
         // Tải scene có tên là "SampleScene"
